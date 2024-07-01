@@ -1,5 +1,5 @@
 .main-form{
-    background-color: rgb(12, 189, 115);
+    background-color: rgb(6, 221, 228);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -31,10 +31,13 @@
             gap: 15px;
 
             input{
-                border: 1px solid #333;
-                border-radius: 10px;
+                border: none;
+                border-bottom: 1px solid #333;
                 padding: 15px;
                 font-size: 13px;
+                &::placeholder{
+                    color: rgb(175,175,175)
+                }
 
             }
 
