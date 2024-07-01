@@ -38,9 +38,16 @@
                 &::placeholder{
                     color: rgb(175,175,175)
                 }
-
             }
-
+         button{
+            background-color: rgb(6, 221, 228);
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 15px;
+         }
         }
     }
 }
