@@ -1,4 +1,5 @@
 import React from 'react'
+import addAvatar from '../assets/addAvatar.png';
 
 const Register = () => {
   return (
@@ -10,8 +11,11 @@ const Register = () => {
                 <input type='text' placeholder='name'/>
                 <input type='email' placeholder='email'/>
                 <input type='password' placeholder='password'/>
-                <input type='file' />
-                 <label htmlFor='file'>Add Avatar</label>
+                <input style={{display: 'none'}} type='file' id='file' />
+                 <label htmlFor='file'>
+                    <img src={addAvatar} alt="avatar" />
+                 <span>Add an Avatar</span>
+                 </label>
                 <button>Sign up</button>
             </form>
             <p>You do have an account? Login</p>
