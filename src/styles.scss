@@ -1,5 +1,6 @@
+//Login/Register styles
 .main-form {
-  background-color: rgb(6, 221, 228);
+  background-color: rgb(6, 106, 228);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -68,8 +69,9 @@
   }
 }
 
+// Home page styles
 .home {
-  background-color: rgb(6, 221, 228);
+  background-color: rgba(6, 147, 228, 0.758);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -85,7 +87,44 @@
 
     .sidebar {
       flex: 1;
-      background-color: #333;
+      background-color: rgb(6, 53, 139, 195);
+
+      .navbar{
+        display: flex;
+        align-items: center;
+        background-color: #2b2b5e;
+        height: 50px;
+        padding: 10px;
+        justify-content: space-between;
+        color: #ddddf7;
+
+        .header{
+          font-weight: bold;
+        }
+
+        .user{
+          display: flex;
+          gap: 10px;
+          align-items: center;
+
+          img{
+            background-color: #ddddf7;
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+          button{
+            background-color: #5d5b8d;
+            color: #ddddf7;
+           font-size: 10px;
+           border: none;
+           cursor: pointer; 
+           border-radius: 10px;
+          }
+        }
+      }
+
     }
     .chat {
       flex: 2;
