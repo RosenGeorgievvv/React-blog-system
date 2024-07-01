@@ -48,22 +48,47 @@
         padding: 10px;
         font-size: 15px;
       }
-      label{
+      label {
         display: flex;
         align-items: center;
         gap: 10px;
         color: #333;
         font-size: 12px;
         cursor: pointer;
-        img{
-            width: 32px;
+        img {
+          width: 32px;
         }
       }
     }
-    p{
-        color: #5d5b8d;
-        margin-top: 10px;
-        font-size: 12px;
+    p {
+      color: #5d5b8d;
+      margin-top: 10px;
+      font-size: 12px;
+    }
+  }
+}
+
+.home {
+  background-color: rgb(6, 221, 228);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 65%;
+    height: 85%;
+    display: flex;
+    overflow: hidden;
+
+    .sidebar {
+      flex: 1;
+      background-color: #333;
+    }
+    .chat {
+      flex: 2;
     }
   }
 }
