@@ -1,8 +1,20 @@
 import React from 'react'
+import addAvatar from '../assets/addAvatar.png';
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <div className='main-form'>
+        <div className='main-wrapper'>
+            <span className='header'>F2F Chat</span>
+            <span className='title'>Login</span>
+            <form>
+                <input type='email' placeholder='email'/>
+                <input type='password' placeholder='password'/>
+                <button>Sign in</button>
+            </form>
+            <p>You do not have an account? Register</p>
+        </div>
+    </div>
   )
 }
 
