@@ -205,6 +205,11 @@
           gap: 20px;
 
           .messageInfo{
+            display: flex;
+            flex-direction: column;
+            color: gray;
+            font-weight: 300;
+            
             img{
               width: 40px;
               height: 40px;
