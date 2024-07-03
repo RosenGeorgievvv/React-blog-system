@@ -44,7 +44,7 @@ const Register = () => {
         </form>
         <p>You do have an account? Login</p>
       </div>
-    </div> 
+    </div>  
   );
 };
 
