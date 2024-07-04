@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
-import { auth } from "../firebase";
+import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
+import { auth, getStorage } from "../firebase";
 import addAvatar from "../assets/addAvatar.png";
 
 const Register = () => {
@@ -22,9 +22,6 @@ const Register = () => {
         password
       );
 
-      
-
-const storage = getStorage();
 const storageRef = ref(storage, 'images/rivers.jpg');
 
 const uploadTask = uploadBytesResumable(storageRef, file);
