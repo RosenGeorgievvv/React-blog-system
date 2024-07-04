@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
-import { auth, getStorage } from "../firebase";
+import { auth, storage } from "../firebase";
 import addAvatar from "../assets/addAvatar.png";
 
 const Register = () => {
